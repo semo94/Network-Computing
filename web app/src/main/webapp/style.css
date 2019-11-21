@@ -1,0 +1,76 @@
+body {
+    margin: 15px 0 0 15px;
+    padding: 1px; /*background: #2370cf;*/
+    font: 12px 'Lucida Grande', Geneva, Verdana, Arial, sans-serif;
+    color: #000;
+}
+
+table, td {
+    font: 12px 'Lucida Grande', Geneva, Verdana, Arial, sans-serif;
+    color: #000;
+}
+
+table.sample {
+    border-width: 1px;
+    border-style: outset;
+    border-color: blue;
+    border-collapse: separate;
+    background-color: rgb(255, 255, 240);
+}
+
+table.sample th {
+    border-width: 1px;
+    padding: 1px;
+    border-style: none;
+    border-color: blue;
+    background-color: rgb(255, 255, 240);
+}
+
+table.sample td {
+    border-width: 1px;
+    padding: 1px;
+    border-style: none;
+    border-color: blue;
+    background-color: rgb(255, 255, 240);
+}
+
+h1 {
+    font: 24px;
+}
+
+img {
+    border: thin black solid;
+    width: 300px;
+}
+
+
+a.button {
+  background-color: red;
+  box-shadow: 0 5px 0 darkred;
+  color: white;
+  padding: .5em .5em;
+  float: right;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+a.button:hover {
+  background-color: #ce0606;
+  cursor: pointer;
+}
+
+a.button:active {
+  box-shadow: none;
+  top: 5px;
+}
+
+#contentBox {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    color: black;
+    background: #eee;
+    border: thick black solid;
+}
